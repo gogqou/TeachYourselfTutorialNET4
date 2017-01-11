@@ -1,0 +1,32 @@
+﻿@model HelloWorldMVCForm.Models.ContactModels
+@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/SHared/_Layout.cshtml";
+}
+<h1>contact us</h1>
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    <div class="row">
+        @Html.LabelFor(model=>model.FirstName, "First Name:")
+        @Html.EditorFor(model=>model.FirstName)
+        @Html.ValidationMessageFor(model=>model.FirstName)
+    </div>
+    <div class="row">
+        @Html.LabelFor(model=>model.LastName, "Last Name:")
+        @Html.EditorFor(model=>model.LastName)
+    </div>
+    <div class="row">
+        @Html.LabelFor(model => model.Email, "Email:")
+        @Html.EditorFor(model => model.Email)
+    </div>
+    <div class="row">
+        @Html.LabelFor(model => model.Comment, "Comments:")
+        @Html.TextAreaFor(model => model.Comment)
+    </div>
+    <div class="row">
+        <input type="submit" value="submit" />
+        <input type="reset" value="reset" />
+    </div>
+
+}

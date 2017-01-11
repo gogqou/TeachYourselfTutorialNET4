@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReadWrite", "FileReadWr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQXML", "LINQXML\LINQXML.csproj", "{C981B5BD-E3F0-4833-8E9A-E8DD3DD0C46B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldMVCForm", "HelloWorldMVCForm\HelloWorldMVCForm.csproj", "{A0206107-ACA9-46D2-A112-E2D10903C9DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeMVCForm", "PrototypeMVCForm\PrototypeMVCForm.csproj", "{99196964-2E2C-4EDE-9263-1A853D852E48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{C981B5BD-E3F0-4833-8E9A-E8DD3DD0C46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C981B5BD-E3F0-4833-8E9A-E8DD3DD0C46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C981B5BD-E3F0-4833-8E9A-E8DD3DD0C46B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0206107-ACA9-46D2-A112-E2D10903C9DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0206107-ACA9-46D2-A112-E2D10903C9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0206107-ACA9-46D2-A112-E2D10903C9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0206107-ACA9-46D2-A112-E2D10903C9DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99196964-2E2C-4EDE-9263-1A853D852E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99196964-2E2C-4EDE-9263-1A853D852E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99196964-2E2C-4EDE-9263-1A853D852E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99196964-2E2C-4EDE-9263-1A853D852E48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
